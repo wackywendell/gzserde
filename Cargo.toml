@@ -2,3 +2,9 @@
 name = "gzserde"
 version = "0.1.0"
 authors = ["Wendell Smith <wackywendell@gmail.com>"]
+
+[dependencies]
+flate2 = "*"
+serde = "*"
+serde_macros = "*"
+serde_json = "*"
